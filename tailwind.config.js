@@ -9,6 +9,11 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
     },
+    extend: {
+      screens: {
+        'light-mode': { raw: '(prefers-color-scheme: light)' }
+      }
+    },
     colors: {
       transparent: 'transparent',
 
@@ -91,6 +96,7 @@ module.exports = {
         700: '#2b6cb0',
         800: '#2c5282',
         900: '#2a4365',
+        1000: '#000c19'
       },
       indigo: {
         100: '#ebf4ff',
@@ -221,6 +227,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Inter var',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',

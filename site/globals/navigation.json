@@ -13,6 +13,10 @@
             "url": "/blog/"
         },
         {
+            "label": "Tableau",
+            "url": "/tableau/"
+        },
+        {
             "label": "Contact",
             "url": "/contact/"
         }

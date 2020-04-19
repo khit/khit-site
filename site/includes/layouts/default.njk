@@ -20,6 +20,12 @@
         <link rel="stylesheet" href="/css/main.min.css">
     {% endif %}
 
+    {# syntax highlighting #}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism-twilight.min.css">
+
+    {# custom fonts #}
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
     {# include scripts #}
     {% if helpers.environment === "development" %}
         <script src="/js/main.js" defer></script>
@@ -31,13 +37,14 @@
     {% include "components/social-meta.njk" %}
 
     {# lastly include favicon, fonts, etc #}
-    <link rel="icon" type="image/png" href="{{ site.images.favicon }}">
-
+    {# <link rel="icon" type="image/png" href="{{ site.images.favicon }}"> #}
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+    
     {# canonical #}
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 </head>
 
-<body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-purple-900 leading-normal text-lg">
+<body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-gray-100 light-mode:text-gray-900 bg-blue-1000 light-mode:bg-white leading-normal text-lg">
 
     <a class="sr-only" href="#main">Skip to content</a>
 

@@ -1,7 +1,13 @@
-const htmlmin = require("html-minifier")
+const htmlmin = require("html-minifier");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = eleventyConfig => {
 
+    // Plugins
+    eleventyConfig.addPlugin(pluginRss)
+    eleventyConfig.addPlugin(syntaxHighlight)
+    
     // Add a readable date formatter filter to Nunjucks
     eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"))
 
@@ -22,6 +28,8 @@ module.exports = eleventyConfig => {
         return content
     })
 
+    
+
     // Collections
     eleventyConfig.addCollection('blog', collection => {
 
@@ -41,6 +49,9 @@ module.exports = eleventyConfig => {
 
     })
 
+    // So tags in dir json are not overridden by front matter
+    eleventyConfig.setDataDeepMerge(true);
+
     // Layout aliases
     eleventyConfig.addLayoutAlias('default', 'layouts/default.njk')
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
@@ -59,7 +70,7 @@ module.exports = eleventyConfig => {
 
         dir: {
             input: 'site',
-            output: 'dist',
+            output: '_dist',
             includes: 'includes',
             data: 'globals'
         }

@@ -3,7 +3,7 @@
 
 // headings
 h1, h2, h3 {
-    @apply font-bold leading-tight mt-0 mb-6 text-purple-900;
+    @apply font-black leading-tight mt-0 mb-6 text-purple-900;
 }
 
 .page-title {
@@ -15,11 +15,11 @@ h1, h2, h3 {
 
 	// paragraph
 	p {
-		@apply mb-8;
+		@apply mb-8 font-normal tracking-tighter text-gray-400;
 
         // intro paragraph
 		&:first-child {
-			@apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
+			@apply border-b border-gray-200 text-2xl pb-10 mb-10 font-thin leading-tight tracking-tight text-gray-600;
 
 			@screen md {
                 @apply text-3xl;

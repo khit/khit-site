@@ -16,3 +16,26 @@
 .inner {
     @apply w-full max-w-6xl ml-auto mr-auto px-6;
 }
+
+// syntax highlighting (prismJS)
+.highlight-line {
+    display: inline-block;
+    /* del, ins, mark default styles */
+    text-decoration: none;
+    color: inherit;
+}
+/* allow highlighting empty lines */
+.highlight-line:empty:before {
+    content: " ";
+}
+.highlight-line:not(:last-child) {
+    min-width: 100%;
+}
+.highlight-line .highlight-line:not(:last-child) {
+    min-width: 0;
+}
+.highlight-line-active {
+    background-color: rgba(169, 169, 169, 0.671);
+    text-shadow: none;
+}
+  
