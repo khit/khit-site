@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>My Blog Title</title>
+  <subtitle>Dope tech stuff.</subtitle>
+  <link href="https://example.com/feed.xml" rel="self"/>
+  <link href="http://example.com/"/>
+  <updated>2018-09-29T19:00:00-05:00</updated>
+  <id>https://example.com/</id>
+  <author>
+    <name>My Name</name>
+    <email>myemailaddress@example.com</email>
+  </author>
+  
+  <entry>
+    <title>Why running is incredible medicine for your brain</title>
+    <link href="http://example.com/blog/post-3/"/>
+    <updated>2019-11-14T18:00:00-06:00</updated>
+    <id>http://example.com/blog/post-3/</id>
+    <content type="html">&lt;p&gt;Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot. This is in contrast to walking, where one foot is always in contact with the ground, the legs are kept mostly straight.&lt;/p&gt;
+&lt;p&gt;Running is a type of gait characterized by an aerial phase in which all feet are above the ground. This is in contrast to walking, where one foot is always in contact with the ground, the legs are kept mostly straight and the center of gravity vaults over the stance leg or legs in an inverted pendulum fashion. A characteristic feature of a running body from the viewpoint of spring-mass mechanics is that changes in kinetic and potential energy within a stride occur simultaneously, with energy storage accomplished by springy tendons and passive muscle elasticity. The term running can refer to any of a variety of speeds ranging from jogging to sprinting.&lt;/p&gt;
+&lt;p&gt;It is assumed that the ancestors of mankind developed the ability to run for long distances about 2.6 million years ago, probably in order to hunt animals. Competitive running grew out of religious festivals in various areas. Records of competitive racing date back to the Tailteann Games in Ireland in 1829 BCE,[citation needed] while the first recorded Olympic Games took place in 776 BCE. Running has been described as the world’s most accessible sport.&lt;/p&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+&lt;p&gt;A scene depicting long distance runners, originally found on a Panathenaic amphora from Ancient Greece, circa 333 B.C.
+It is thought that human running evolved at least four and a half million years ago out of the ability of the ape-like Australopithecus, an early ancestor of humans, to walk upright on two legs.&lt;/p&gt;
+&lt;p&gt;The theory proposed considered to be the most likely evolution of running is of early humans’ developing as endurance runners from the practice of persistence hunting of animals, the activity of following and chasing until a prey is too exhausted to flee, succumbing to “chase myopathy” of the Nariokotome Skeleton provided further evidence for the Carrier theory.&lt;/p&gt;
+&lt;h2&gt;Cardiovascular benefits&lt;/h2&gt;
+&lt;p&gt;While there exists the potential for injury while running, possible strengthening of the immune system and an improved self-esteem and emotional state. Running, like all forms of regular exercise can effectively slow or reverse the effects of aging.&lt;/p&gt;
+&lt;p&gt;Whereby an optimal amount of vigorous aerobic exercise such as running might bring benefits related to lower cardiovascular disease and life extension, it should be noted that in an excessive dose it might have an opposite effect associated with cardiotoxicity.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Five things you need to know to run a podcast</title>
+    <link href="http://example.com/blog/post-2/"/>
+    <updated>2019-10-29T19:00:00-05:00</updated>
+    <id>http://example.com/blog/post-2/</id>
+    <content type="html">&lt;p&gt;A Podcast is an episodic series of digital audio files which a user can subscribe to so that new episodes are automatically downloaded via web syndication to the user’s own local computer, mobile application, or portable media player.&lt;/p&gt;
+&lt;p&gt;The word arose as a portmanteau of “iPod” and “broadcast”. Thus, the files distributed are in audio format, but may sometimes include other file formats such as PDF or ePub. Videos which are shared following a podcast model are called video podcasts or vodcasts.&lt;/p&gt;
+&lt;p&gt;The distributor of a podcast maintains a central list of the files on a server as a web feed that can be accessed through the Internet. The listener or viewer uses special client application software on a computer or media player, known as a podcatcher, which accesses this web feed, checks it for updates, and downloads any new files in the series.&lt;/p&gt;
+&lt;p&gt;This process can be automated so that new files are downloaded automatically, which may seem to the user as though new episodes are broadcast or “pushed” to them. Files are stored locally on the user’s device, ready for offline use.&lt;/p&gt;
+&lt;p&gt;There are many different mobile applications available for people to use to subscribe and listen to podcasts. Many of these applications allow users to download podcasts or stream them on demand as an alternative to downloading. Many podcast players allow listeners to skip around the podcast and control the playback speed.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>7 steps to more productive meetings</title>
+    <link href="http://example.com/blog/post-1/"/>
+    <updated>2018-09-29T19:00:00-05:00</updated>
+    <id>http://example.com/blog/post-1/</id>
+    <content type="html">&lt;p&gt;A meeting is a gathering of two or more people that has been convened for the purpose of achieving a common goal through verbal interaction.&lt;/p&gt;
+&lt;p&gt;Such as sharing information or reaching an agreement. Meetings may occur face-to-face or virtually, as mediated by communications technology, such as a telephone conference call, a skyped conference call or a video conference.&lt;/p&gt;
+&lt;p&gt;One can distinguish a meeting from other gatherings, such as a chance encounter (not convened), a sports game or a concert (verbal interaction is incidental), a party or the company of friends (no common goal is to be achieved) and a demonstration (whose common goal is achieved mainly through the number of demonstrators present, not through verbal interaction).&lt;/p&gt;
+&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; Orders&lt;/mark&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;WHERE&lt;/span&gt; Profit &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; https://tableau.com/downloads&lt;/code&gt;&lt;/pre&gt;
+&lt;h1&gt;Here&#39;s the top-level heading&lt;/h1&gt;
+&lt;p&gt;The sheriff of blanket county. Parlay to the right, y&#39;all.&lt;/p&gt;
+&lt;h2&gt;Event planners&lt;/h2&gt;
+&lt;p&gt;Meeting planners and other meeting professionals may use the term “meeting” to denote an event booked at a hotel, convention center or any other venue dedicated to such gatherings.&lt;/p&gt;
+&lt;h3&gt;Third Level Header&lt;/h3&gt;
+&lt;p&gt;In this sense, the term meeting covers a lecture, seminar, conference, congress, exhibition or trade show, training course, or a team-building session and kick-off event.&lt;/p&gt;
+&lt;h4&gt;Fourth Level Header&lt;/h4&gt;
+&lt;p&gt;This is cool.&lt;/p&gt;
+&lt;h5&gt;Fifth Level&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1551582046-52be1109d772?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=2800&amp;amp;q=80&quot; alt=&quot;&quot; title=&quot;Winter has come&quot;&gt;&lt;/p&gt;
+&lt;h6&gt;Sixth Level&lt;/h6&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
